@@ -65,8 +65,6 @@ autoencoder-vs-pca/
 
 ## Training Summary
 
-```bash
-
 | Metric                    | Autoencoder | PCA     |
 |---------------------------|-------------|---------|
 | Adjusted Rand Index (ARI) | 0.336       | 0.423   |
@@ -74,7 +72,6 @@ autoencoder-vs-pca/
 | Silhouette Score          | 0.124       | 0.157   |
 
 Despite being a nonlinear model, the autoencoder did not outperform PCA in this experiment. PCA remained superior for clustering structure in compressed space.
-```
 
 ---
 ###  Sample Original and Reconstructed Images 
